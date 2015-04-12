@@ -10,6 +10,7 @@ return array(
 	| to use as your default connection for all database work..
 	|
 	*/
+	// SQL DATABASE
    'db' => array(
        'driver'      => 'mysql',
        'api'         => 'PDO', // pdo or mysqli onyl for mysql data base

@@ -1,7 +1,6 @@
 <?php
 
-// define the vendor path
-define('VENDOR' , ROOT  . 'vendor' . DS);
+reqire_once('data.php');
 
 // require the classloader and initialize it
 require_once VENDOR . 'AWC' . DS .'classLoader.php';

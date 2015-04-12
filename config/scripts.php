@@ -14,4 +14,5 @@ return array(
 	*/
     'default'  => 'Application',
     'admin'    => 'Manger',
+    'vendor'	=> 'VENDOR',
 );

@@ -7,8 +7,8 @@ define('DS' , DIRECTORY_SEPARATOR);
 // set the path of the framework in ROOT constant
 define('ROOT' , dirname(__FILE__) . DS);
 
-// require the startup file
-$awc = require_once ROOT.'vendor' . DS . 'startup.php';
+// require the loader file
+$awc = require_once ROOT.'vendor' . DS . 'loader.php';
 
 Session::set('f','session');
 Session::set('f2','session');
